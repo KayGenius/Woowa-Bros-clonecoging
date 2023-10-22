@@ -1,0 +1,60 @@
+.banner{
+    width:100vw;
+  }
+  
+  .banner1>video{
+    width:100vw;
+    position:absolute;
+    overflow: hidden;
+  }
+  
+  @keyframes typographics {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+  }
+  
+  .banner1text{
+    font-size: 80px;
+    left:30%;
+    top:40%;
+    font-weight: 900;
+    color:white;
+    font-family: 'BMHANNAAir';
+    position:absolute;
+    text-align: center;
+    animation: typographics 7s infinite;
+  }
+  
+  
+  
+  .banner2>video{
+    width:100vw;
+    overflow: hidden;
+  }
+  
+  .banner3{
+    background-image: url('https://hanok.seoul.go.kr/images/sub/hanok_definition1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:80vh;
+  }
+  
+  
+  .banner4{
+    background-image: url('https://woowahan-cdn.woowahan.com/new_resources/image/banner/19bef36e5f804858b6b92f687665ad77.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:80vh;
+  }
+
+  @media screen and (max-width : 1200px) { 
+    .banner1text{ 
+      font-size: 30px;
+      left:40%;
+      top:25%
+    } 
+    .headerright{
+      font-size: 16px;
+    }
+  } 

@@ -1,0 +1,27 @@
+
+.season{
+    top:5%;
+    width:100vw;
+    height:800px;
+    position:relative;
+
+
+  }
+  .seasoncontent{
+    width:100vw;
+    height:800px;
+    background-image: url('https://woowahan-cdn.woowahan.com/static/image/main/pc/season_1_bg.jpg?af10f3b0');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seasontext{
+    font-size: 60px;
+    font-family: 'BMHANNAAir';
+    color:white;
+    font-weight: 800;
+    position:absolute;
+    top:50%;
+    left:40%;
+  }
+  
